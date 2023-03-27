@@ -1,0 +1,131 @@
+
+/* Center all content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Game styles */
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  /* Title styles */
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  /* Word styles */
+  .word-container {
+    margin-bottom: 20px;
+  }
+  
+  .word {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Input box styles */
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-box {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Score styles */
+  .score {
+    margin-bottom: 20px;
+  }
+  
+  .score-value {
+    font-weight: bold;
+  }
+  
+  /* Timer styles */
+  .timer {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .timer-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF0000;
+    text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #3e8e41;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    font-size: 18px;
+  }
+  
+  .score {
+    color: #337ab7;
+    font-weight: bold;
+  }
+  #playAgainButton {
+    margin-top: 20px; /* add some margin-top */
+  }

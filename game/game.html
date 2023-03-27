@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mental Age Test - Play</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title" id="title">Hello Player</h1>
+      <div class="game">
+        <p class="instructions">Write down the color of the text:</p>
+        <div class="word-container">
+          <p id="word" class="word">red</p>
+        </div>
+        <div class="input-container">
+          <input type="text" id="inputBox" class="input-box"> 
+          <button id="genButton" onclick="generateWord()" class="button">Check</button>
+        </div>
+        <p class="score">Score: <span id="score" class="score-value">0</span></p>
+        <p class="timer">Time remaining: <span id="timer" class="timer-value">00:00</span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
